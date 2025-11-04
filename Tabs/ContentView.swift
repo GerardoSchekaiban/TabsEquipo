@@ -14,7 +14,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
-            Text("Contador Screen")
+            CounterView()
                 .tabItem {
                     Image(systemName: "clock")
                     Text("Contador")
